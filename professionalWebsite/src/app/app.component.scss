@@ -1,0 +1,12 @@
+#container{
+  height:100%;
+  width:100%;
+}
+.page{
+  min-height:100vh;
+  background-color: #eff;
+  clip-path: polygon(8vw 0px,0px 8vw,0% 100%,100% 100%, 100% 0%);
+  // padding: 4vw 0.5vw 0.5vw 6vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}

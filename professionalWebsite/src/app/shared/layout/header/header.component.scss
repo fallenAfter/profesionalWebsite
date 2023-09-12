@@ -1,0 +1,46 @@
+#be-color-space{
+  width:100%;
+  height: 100%;
+  background-color: #FAA131;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:-1;
+}
+#be-header-space{
+  padding: 0.5vw 2vw;
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  flex-basis: 75%;
+  align-content: center;
+  align-items: center;
+  .be-menu{
+    flex-shrink: 2;
+    width:50px;
+    height:50px;
+  }
+  .be-content{
+    display: flex;
+    flex-grow:1;
+    flex-direction: row;
+    justify-content: space-between;
+    // flex-basis: 10%;
+    // outline:1px solid pink;
+    div{
+      color:#eff;
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      // outline:1px solid green;
+      width:25%;
+      &:nth-child(2){
+        flex-grow:3;
+        width:50%;
+      }
+      &:last-child{
+        justify-content: end;
+      }
+    }
+  }
+}

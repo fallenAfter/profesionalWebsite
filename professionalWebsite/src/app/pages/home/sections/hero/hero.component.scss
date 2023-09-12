@@ -1,0 +1,16 @@
+:host{
+  width:100%;
+  height:90vh;
+  >div{
+    position:relative;
+    width:100%;
+    height:90vh;
+    overflow:hidden;
+    >div{
+      position: absolute;
+      bottom:0;
+      width: 100%;
+      background-color: rgba(113,242,251,0.6);
+    }
+  }
+}
